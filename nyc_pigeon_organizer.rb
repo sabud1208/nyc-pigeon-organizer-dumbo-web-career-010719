@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
     y.each do |some|
 
  binding.pry
+    end
   end
 end
