@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         binding.pry
         z[name] ||= {}
-        z[name][Key]= []
-        z[name][key] << colors.to_s
+        z[name][x]= []
+        z[name][x] << colors.to_s
       end
     end
   end
