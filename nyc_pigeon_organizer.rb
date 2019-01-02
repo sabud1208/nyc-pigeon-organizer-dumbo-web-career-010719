@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
         z[name] ||= {}
         z[name][Key]= []
         z[name][key] << color.to_s
+        binding.pry
       end
     end
   end
