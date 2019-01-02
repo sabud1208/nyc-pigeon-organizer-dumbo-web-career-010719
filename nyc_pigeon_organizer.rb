@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         z[name] ||= {}
         z[name][x]= []
-        z[name][x] << colors
+        z[name][x] << colors.uniq
       end
     end
   end
